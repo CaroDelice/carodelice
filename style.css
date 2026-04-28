@@ -1,0 +1,53 @@
+/* 🎨 Fondo y estilo general */
+body {
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  background: url('Imagenes/fondo.jpg') no-repeat center top;
+  background-size: 30%;
+  text-align: center;
+  color: #FFD700;
+}
+
+/* 📏 Espaciado para los enlaces debajo del logo */
+.contenido {
+  margin-top: 340px; /* ajustado para el logo centrado y textos reducidos */
+}
+
+/* 📝 Texto principal */
+.contenido p {
+  font-size: 28px;
+  margin-bottom: 300px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* 🔗 Botones de redes sociales */
+.links a {
+  display: block;
+  margin: 12px auto;
+  text-decoration: none;
+  color: #FFD700;
+  font-size: 26px;
+  background: rgba(139,0,0,0.7);
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+/* 🌿 Efecto hover verde */
+.links a:hover {
+  background: rgba(0,200,0,0.8);
+  color: #FFE700;
+}
+
+/* 📱 Adaptación móvil */
+@media (max-width: 768px) {
+  .contenido {
+    margin-top: 300px;
+  }
+  .links a {
+    width: 80%;
+    font-size: 22px;
+  }
+}
