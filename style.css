@@ -3,14 +3,14 @@ body {
   margin: 0;
   font-family: 'Great Vibes', cursive;
   background: url('Imagenes/fondo.jpg') no-repeat center top;
-  background-size: 30%;
+  background-size: cover;
   text-align: center;
   color: #FFD700;
 }
 
 /* 📏 Espaciado para los enlaces debajo del logo */
 .contenido {
-  margin-top: 340px; /* ajustado para el logo centrado y textos reducidos */
+  margin-top: 25vh; /* ajustado para el logo centrado y textos reducidos */
 }
 
 /* 📝 Texto principal */
@@ -44,10 +44,10 @@ body {
 /* 📱 Adaptación móvil */
 @media (max-width: 768px) {
   .contenido {
-    margin-top: 300px;
+    margin-top: 20vh;
   }
   .links a {
-    width: 80%;
+    width: 90%;
     font-size: 22px;
   }
 }
