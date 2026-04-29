@@ -10,13 +10,13 @@ body {
 
 /* 📏 Espaciado para los enlaces debajo del logo */
 .contenido {
-  margin-top: 45vh; /* ajustado para el logo centrado y textos reducidos */
+  margin-top: 30vh; /* ajustado para el logo centrado y textos reducidos */
 }
 
 /* 📝 Texto principal */
 .contenido p {
   font-size: 28px;
-  margin-bottom: 300px;
+  margin-bottom: 5vh;
   font-weight: bold;
   text-shadow: 1px 1px 3px #000;
 }
@@ -24,14 +24,14 @@ body {
 /* 🔗 Botones de redes sociales */
 .links a {
   display: block;
-  margin: 12px auto;
+  margin: 18px auto;
   text-decoration: none;
   color: #FFD700;
   font-size: 26px;
   background: rgba(139,0,0,0.7);
-  padding: 10px;
+  padding: 12px;
   border-radius: 10px;
-  width: 200px;
+  width: 220px;
   transition: all 0.3s ease;
 }
 
@@ -44,10 +44,11 @@ body {
 /* 📱 Adaptación móvil */
 @media (max-width: 768px) {
   .contenido {
-    margin-top: 20vh;
+    margin-top: 25vh;
   }
   .links a {
     width: 90%;
     font-size: 22px;
+    margin: 20px auto;
   }
 }
