@@ -37,6 +37,43 @@ body {
   width: 120px;
   transition: all 0.3s ease;
 }
+  
+/* 🎨 Estilos individuales por red social */
+.instagram {
+  background: linear-gradient(45deg, #feda75, #d62976, #962fbf);
+  color: #fff;
+  text-shadow: 1px 1px 3px #962fbf;
+}
+
+.facebook {
+  background-color: #1877f2;
+  color: #fff;
+  text-shadow: 1px 1px 3px #0e4aa3;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  color: #fff;
+  text-shadow: 1px 1px 3px #128c7e;
+}
+
+.tiktok {
+  background-color: #000;
+  color: #ff0050;
+  text-shadow: 1px 1px 3px #00f2ea;
+}
+
+.threads {
+  background-color: #f5c16c;
+  color: #000;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+.youtube {
+  background-color: #ff0000;
+  color: #fff;
+  text-shadow: 1px 1px 3px #b30000;
+}
 
 /* 🌿 Efecto hover verde */
 .links a:hover {
